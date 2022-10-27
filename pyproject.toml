@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "saltpeter"
+version = "0.0.1"
+description = "Swift BAT pointing algorithm for pre-merger gravitational-wave events"
+authors = ["Leo Singer <leo.singer@ligo.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+astropy = "*"
+matplotlib = "*"
+ligo-skymap = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
